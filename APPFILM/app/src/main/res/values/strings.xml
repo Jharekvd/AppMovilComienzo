@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="Inicio">Iniciar\n</string>
+    <string name="resgitrar">Registrar</string>
+    <string name="acepta_los_terminos_y_condiciones">Acepta los Terminos y Condiciones</string>
+</resources>
