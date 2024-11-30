@@ -11,6 +11,9 @@
     <item
         android:id="@+id/mostrarUsuarios"
         android:title="Mostrar Usuarios" />
+    <item
+        android:id="@+id/BD"
+        android:title="Base de datos" />
 
 
 </menu>

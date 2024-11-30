@@ -5,4 +5,6 @@
     <string name="Inicio">Iniciar\n</string>
     <string name="resgitrar">Registrar</string>
     <string name="acepta_los_terminos_y_condiciones">Acepta los Terminos y Condiciones</string>
+    <string name="genero_favorito">Genero Favorito</string>
+    <string name="nombre">Nombre</string>
 </resources>

@@ -23,7 +23,10 @@ class MostrarUsuarios : AppCompatActivity() {
 
         setContentView(binding.root)
         //Configurar el reciclerView
+        reciclerView()
 
+    }
+    private fun reciclerView(){
         binding.reciclerviewUsuarios.layoutManager = LinearLayoutManager(this)
         //Configurar el ViewModel llamamos al metodo mostrarUsuarios
         viewModel.mostrarUsuario(this)
@@ -36,7 +39,6 @@ class MostrarUsuarios : AppCompatActivity() {
                 abrirDetalleUsuario(Usuario)
             }
         }
-
     }
     //Metodo para abrir el detalle del usuario cuando se hace click en el TEXTO DEL USUARIO
     //pasamos el usuario como argumento

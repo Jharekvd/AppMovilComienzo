@@ -97,7 +97,7 @@
                 android:layout_width="156dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="AÑO"
+                android:text="Genero Favorito"
                 android:textAlignment="center"
                 android:textColor="#F8EBEB" />
 
@@ -118,19 +118,19 @@
                 android:textColor="#FFFCFC" />
 
             <Spinner
-                android:id="@+id/Spinneranio"
+                android:id="@+id/SpinnerGeneroFavorito"
                 android:layout_width="152dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:contentDescription="Año"
-                android:entries="@array/anio"
+                android:contentDescription="@string/genero_favorito"
+                android:entries="@array/GeneroFavorito"
                 android:textColor="#FFFCFC" />
         </LinearLayout>
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="74dp"
-            android:hint="Nombre"
+            android:hint="@string/nombre"
             android:textColorHint="#F2EBEB">
 
             <EditText

@@ -48,6 +48,12 @@ class MenuPrincipal : AppCompatActivity() {
                 startActivity(intent)
                 true
             }
+            R.id.BD->{
+                Toast.makeText(this,"Seleccionaste la opciones BD",Toast.LENGTH_SHORT).show()
+                val intent = Intent(this, MostrarBD::class.java)
+                startActivity(intent)
+                true
+            }
          else -> super.onOptionsItemSelected(item)
      }
      }

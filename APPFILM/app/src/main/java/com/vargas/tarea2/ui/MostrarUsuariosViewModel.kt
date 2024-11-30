@@ -36,9 +36,9 @@ class MostrarUsuariosViewModel : ViewModel() {
                     val email = jsonObject.getString("Email")
                     val password = jsonObject.getString("Password")
                     val edad = jsonObject.getInt("Edad")
-                    val annio = jsonObject.getInt("Annio")
+                    val generoFavorito = jsonObject.getString("GeneroFavorito")
                     //Creamos un objeto Usuario con los datos obtenidos
-                    val usuario = Usuario(nombre,apellidos,phone, email, password, edad, annio)
+                    val usuario = Usuario(nombre,apellidos,phone, email, password, edad, generoFavorito)
                     listusuarios.add(usuario)
 
                 }

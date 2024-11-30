@@ -11,20 +11,20 @@ import java.io.FileWriter
 class RegistrarViewModel : ViewModel() {
     private val fileName ="filmRegistro.json"
     fun registrarUser(Email:String,
-                         Password:String,
-                         Phone:String,
-                         Edad:Int,
-                         Annio:Int,
-                         nombre:String,
-                         apellidos:String,
+                      Password:String,
+                      Phone:String,
+                      Edad:Int,
+                      GeneroFavorito:String,
+                      nombre:String,
+                      apellidos:String,
                          //context: Context para poder acceder a los archivos
-                         context: Context) {
+                      context: Context) {
         val nuevoRegis = JSONObject().apply {
             put("Email", Email)
             put("Password", Password)
             put("Phone", Phone)
             put("Edad", Edad)
-            put("Annio", Annio)
+            put("GeneroFavorito", GeneroFavorito)
             put("nombre", nombre)
             put("apellidos", apellidos)
         }

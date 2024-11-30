@@ -20,7 +20,7 @@ class DetallesMostrarUsuario : AppCompatActivity() {
         //Recuperamos los datos del usuario desde el intent
        val usuario = intent.getSerializableExtra("usuario") as Usuario
         binding.textViewNombre.text=" Nombre: ${usuario.nombre} ${usuario.apellidos}"
-        binding.textViewEdadAnio.text="Año de nacimiento: ${usuario.annio} Edad: ${usuario.edad}"
+        binding.textViewEdadAnio.text="Genero favorito: ${usuario.generoFavorito} Edad: ${usuario.edad}"
         binding.textViewPhone.text=" Telefono: ${usuario.phone}"
         binding.textViewEmail.text=" Email: ${usuario.email}"
         binding.textViewPassword.text=" Contraseña: ${usuario.password}"

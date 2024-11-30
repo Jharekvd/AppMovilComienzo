@@ -19,11 +19,19 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         _binding=ActivityMainBinding.inflate(layoutInflater)
         setContentView(_binding.root)
+        menIniciar()
+        menRegistrar()
+    }
+
+    private fun menRegistrar() {
         _binding.buttonResgister.setOnClickListener {
             //Pasamos al activity de registrar
             val intent = Intent(this, MainResgitrar::class.java)
             startActivity(intent)
         }
+    }
+
+    private fun menIniciar() {
         _binding.Iniciar.setOnClickListener {
             val intent = Intent(this, MenuPrincipal::class.java)
             startActivity(intent)

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="GeneroFavorito">
+        <item>Genero</item>
+        <item>Terror</item>
+        <item>Accion</item>
+        <item>Romance</item>
+        <item>Fantasia</item>
+        <item>Historia</item>
+        <item>Animadas</item>
+        <item>Musical</item>
+        <item>Ciencia Ficcion</item>
+    </string-array>
+</resources>

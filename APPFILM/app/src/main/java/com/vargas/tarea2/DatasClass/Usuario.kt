@@ -9,5 +9,5 @@ data class Usuario(
     val email: String,
     val password: String,
     val edad: Int,
-    val annio: Int,
+    val generoFavorito: String,
 ): Serializable
